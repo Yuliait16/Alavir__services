@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,regular,500,600);
+
+@import url(nullstyle.css);
+
+.wraper {
+    min-height: 100%;
+}
+.page__container{
+    max-width: 1430px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    background-color: #E5E5E5;
+}
+.page__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+.page__logo{
+    margin-bottom: 40px;
+}
+.page__logo a{
+    display: inline-block;
+}
+.page__telephone{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B11616;
+    margin-bottom: 60px;
+}
+.page__services{
+    background: url("../img/bg-logo.svg") left 405px no-repeat;
+    padding-bottom: 225px;
+}
+.page__service{
+    background: linear-gradient(85.94deg, #B01616 0%, #E63E3E 100%);
+    box-shadow: 0px 2px 7px rgba(79, 6, 6, 0.35);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.page__service-link{
+    display: inline-block;
+    min-width: 290px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 17px 4px;
+}
+
